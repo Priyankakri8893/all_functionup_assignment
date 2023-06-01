@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+    function myFunction() {
+        document.getElementById("myDiv").innerHTML=document.getElementById("myDiv").innerHTML+"new Hi "
+    }
+    // function offfunction() {
+    //     document.getElementById("myDiv").innerHTML=""
+    // }
+</script>
+
+<p>In this example, the yelllow div will get a new Hi every time you mouse over it:</p>
+
+<div style="padding:50px; background:yellow;" onmouseleave="offfunction()" onmouseover="myFunction()" id="myDiv">  </div>
+
+</body>
+</html>

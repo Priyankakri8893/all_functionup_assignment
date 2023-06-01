@@ -1,0 +1,38 @@
+Problem 1:
+- Create a folder called ‘assignment’
+mkdir assignment
+- Inside ‘assignment’ create 2 folders ‘source’ and ‘destination’
+cd assignment
+mkdir source
+mkdir destination
+- Inside ‘source’ create a text file using a command ( not manually)
+cd source
+touch note.txt 
+- Add content in the text file
+cat >> note.txt
+my name is priyanka
+press ctrl+d+d
+- copy the contents of ‘source’ folder in ‘destination’ using cp command
+cd ..
+cp source/note.txt destination
+End result : both the folders source and destination should have the same file
+cd source
+ls
+cd ..
+cd destination
+ls
+ 
+
+
+Problem 2:
+- Remove the above file from ‘destination’ folder
+rm note.txt
+- Move the file from ‘source’ to ‘destination’
+cd ..
+mv source/note.txt destination
+End result: Only destination folder should have the file.
+cd source
+ls
+cd ..
+cd destination
+ls
